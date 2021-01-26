@@ -1,26 +1,26 @@
 /*reset*/
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root
-{
+:root {
     --azul: #010E45;
     --amarelo: #EAB834;
 }
 
-html
-{
+html {
     font-size: 10px;
     font-family: sans-serif;
 }
 
-.wrapper
-{
+body {
+    background-color: #849AFD !important;
+}
+
+.wrapper {
     width: 90%;
     max-width: 40rem;
     height: 100vh;
@@ -30,8 +30,7 @@ html
     align-items: center;
 }
 
-.container
-{
+.container {
     width: 100%;
     background-color: var(--azul);
     position: relative;
@@ -40,27 +39,23 @@ html
     border-radius: 1rem;
 }
 
-/*Formulario*/
-
-.conteudo
-{
+.conteudo {
     width: 100%;
     padding: 0 2rem;
     z-index: 1000;
 }
 
-.conteudo .header
-{
+.conteudo .header {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2.3rem;
     color: var(--amarelo);
     margin-bottom: 2rem;
+    letter-spacing: 2px;
 }
 
-.conteudo label
-{
+.conteudo label {
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -68,12 +63,17 @@ html
     color: #fff;
 }
 
-.download
-{
+.conteudo input {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.download 
+{  
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     color: var(--azul);
     position: relative;
     margin-top: 2rem;
@@ -83,13 +83,5 @@ html
     border-radius: 5px;
     outline: none;
     border: 0;
+    letter-spacing: 1px;
 }
-
-
-
-
-
-
-
-
-
