@@ -1,0 +1,95 @@
+/*reset*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --azul: #010E45;
+    --amarelo: #EAB834;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.wrapper
+{
+    width: 90%;
+    max-width: 40rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 100%;
+    background-color: var(--azul);
+    position: relative;
+    padding: 5rem 0;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, .1);
+    border-radius: 1rem;
+}
+
+/*Formulario*/
+
+.conteudo
+{
+    width: 100%;
+    padding: 0 2rem;
+    z-index: 1000;
+}
+
+.conteudo .header
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: var(--amarelo);
+    margin-bottom: 2rem;
+}
+
+.conteudo label
+{
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: #fff;
+}
+
+.download
+{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--azul);
+    position: relative;
+    margin-top: 2rem;
+    padding: 1.5rem 4rem;
+    background-color: var(--amarelo);
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
