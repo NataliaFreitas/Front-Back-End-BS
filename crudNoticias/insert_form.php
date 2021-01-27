@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Criar Notícia</title>
 </head>
 <body>
-    <form action="insert.php" method="POST">
-        <input type="text" name="titulo">
-        <input type="text" name="slug">
-        <input type="text" name="descricao">
-        <input type="text" name="palavraschave">
-        <input type="text" name="conteudo">
-        <input type="submit" value="Cadastrar">
+    <div class="container1">
+    <form class="row g-3" action="insert.php" method="POST">
+    <div class="col-md-6">
+        <input class="form-control" type="text" name="titulo" placeholder="Título...">
+    </div>
+    <div class="col-md-6">
+        <input class="form-control" type="text" name="slug" placeholder="Slug...">
+    </div>
+    <div class="col-md-6">
+        <textarea class="form-control" type="text" name="descricao" placeholder="Descrição..."></textarea>
+    </div>
+    <div class="col-md-6">
+        <input class="form-control" type="text" name="palavraschave" placeholder="Palavras-chave">
+    </div>
+    <div class="col-md-6">    
+        <textarea class="form-control" type="text" name="conteudo" placeholder="Conteúdo..."></textarea>
+    </div>
+    <div class="col-md-6">    
+        <input class="botao" type="submit" value="Cadastrar">
+    </div>
     </form>
+    </div>
 </body>
 </html>
