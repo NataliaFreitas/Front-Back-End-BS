@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pesquisar Notícia</title>
 </head>
 <body>
-    <form action="select.php">
-        <input type="number" min="1" name="consulta">
-        <input type="submit" value="Pesquisar">
+<div class="container4">
+    <form class="row g-3" action="select.php" method="POST">
+    <div class="col-md-6">
+        <input class="form-control" type="number" min="1" name="consultaselect" placeholder="ID...">
+    </div>
+    <div class="col-md-6">    
+        <input class="botao" type="submit" value="Pesquisar">
+    </div>
     </form>
+    </div>
 </body>
 </html>
