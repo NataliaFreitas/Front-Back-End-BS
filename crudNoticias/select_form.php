@@ -10,7 +10,7 @@
 <div class="container4">
     <form class="row g-3" action="select.php" method="POST">
     <div class="col-md-6">
-        <input class="form-control" type="number" min="1" name="consultaselect" placeholder="ID...">
+        <input class="form-control" type="number" min="1" name="consulta" placeholder="ID...">
     </div>
     <div class="col-md-6">    
         <input class="botao" type="submit" value="Pesquisar">
